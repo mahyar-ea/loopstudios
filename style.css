@@ -1,0 +1,422 @@
+@font-face {
+    font-family: lemon;
+    src: url(lemon_milk/LEMONMILK-Light.otf);
+}
+
+/* HEADER */
+
+.bg-header {
+    background-image: url(images/desktop/image-hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+
+}
+
+.item-header {
+    color: white;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.logo-header {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+.logo-header p {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-header {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-weight: 500;
+    color: aliceblue;
+}
+
+.nav-header ul {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.nav-header ul li {
+    padding: 0 20px;
+    display: inline;
+}
+
+.nav-header ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-header ul li a:hover {
+    border-bottom: solid 2px white;
+    padding-bottom: 5px;
+    width: 2px;    
+    /* text-decoration: underline;
+    text-underline-offset: 10px; */
+}
+
+/* TEXT BOX */
+
+.text-box {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 130px;
+
+}
+
+.text-box p {
+    width: fit-content;
+    border: solid 2px white;
+    background-color: rgba(240, 248, 255, 0);
+    padding: 45px 130px 45px 60px;
+    font-size: 60px;
+    font-family: lemon;
+    color: white;
+    letter-spacing: 5px;
+    line-height: 125%;
+}
+
+
+/* BODY */
+.main {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.pic1 {
+    object-fit: cover;
+    margin: 150px 0;
+}
+
+.text-box2 {
+    color: black;
+    background-color: rgb(255, 255, 255);
+    height: fit-content;
+    margin-left: -170px;
+    padding: 50px 90px;
+    margin-top: 330px;
+    /* margin-top: -405px;
+    margin-left: 650px; */
+
+}
+
+.text-box2 h2 {
+    font-size: 60px;
+    font-family: lemon;
+    color: rgb(0, 0, 0);
+    letter-spacing: 5px;
+}
+
+.text-box2 p {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.325);
+    line-height: 125%;
+    font-weight: 500;
+}
+
+/* MAIN MAIN */
+
+.main-main {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-main h2 {
+    font-size: 50px;
+    font-family: lemon;
+    color: rgb(0, 0, 0);
+    letter-spacing: 5px;
+}
+
+.main-main button {
+    background-color: black;
+    border: none;
+    color: white;
+    width: 150px;
+    height: 40px;
+    letter-spacing: 3px;
+    border-radius: 5px;
+}
+
+.main-main button:hover {
+    transform: scale(1.02);
+    box-shadow: 1px 10px 7px gray;
+}
+
+.main-main button:active {
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
+
+
+/*  nokte mohem : width ha hame 70%   margin : 0 auto -> bara in ke bian vasat.  */
+
+/* GRID */
+
+.grid-items {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    gap: 20px 30px;  
+    position: relative;
+
+}
+
+.grid-item {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: left;
+    align-items: end;
+    /* filter: grayscale(1);
+    transition: 0.5s; */
+}
+
+.grid-item span {
+    color: white;
+    font-size: 30px;
+    font-family: lemon;
+    letter-spacing: 2px;
+    margin: 0 0 45px 50px;
+    line-height: 110%;
+}
+
+
+.box1 {
+    background-image: url(images/desktop/image-curiosity.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+
+.box2 {
+    background-image: url(images/desktop/image-deep-earth.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.box3 {
+    background-image: url(images/desktop/image-fisheye.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+.box4 {
+    background-image: url(images/desktop/image-from-above.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+
+}
+
+.box5 {
+    background-image: url(images/desktop/image-grid.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+.box6 {
+    background-image: url(images/desktop/image-night-arcade.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+.box7 {
+    background-image: url(images/desktop/image-pocket-borealis.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+.box8 {
+    background-image: url(images/desktop/image-soccer-team.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.box1:hover {
+    transform: scale(1.02);
+    opacity: 0.5;
+    
+}
+
+.box1:hover span {
+    color: black;
+    color: black;   
+}
+
+.box2:hover {
+    transform: scale(1.02);
+    opacity: 0.5;
+}
+
+.box2:hover span {
+    color: rgb(255, 255, 255);
+
+}
+
+
+.box3:hover {
+    transform: scale(1.02);
+    opacity: 0.5;
+}
+
+.box3:hover span {
+    color: black;
+
+}
+
+
+.box4:hover {
+    transform: scale(1.02);
+    opacity: 0.5;
+}
+
+.box4:hover span {
+    color: rgb(255, 255, 255);
+
+}
+
+
+.box5:hover {
+    transform: scale(1.02);
+    opacity: 0.5;
+}
+
+.box5:hover span {
+    color: rgb(255, 255, 255);
+
+}
+
+
+.box6:hover {
+    transform: scale(1.02);
+    opacity: 0.5;
+}
+
+.box6:hover span {
+    color: rgb(255, 255, 255);
+
+}
+
+
+.box7:hover {
+    transform: scale(1.02);
+    opacity: 0.5;
+}
+
+.box7:hover span {
+    color: rgb(255, 255, 255);
+
+}
+
+
+.box8:hover {
+    transform: scale(1.02);
+    opacity: 0.5;
+}
+
+.box8:hover span {
+    color: black;
+
+}
+
+
+.all-footer {
+    color: white; 
+    margin-top: 160px;
+    background-color: black;
+}
+
+
+.top-footer {
+    width: 70%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 30px;
+}
+
+.logo-footer {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.btn-footer {
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.nav-footer {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-weight: 500;
+    color: aliceblue;
+}
+
+.nav-footer ul {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-footer ul li {
+    display: inline;
+}
+
+.nav-footer ul li a {
+    padding-right: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.end {
+    color: rgba(255, 255, 255, 0.62);
+}
